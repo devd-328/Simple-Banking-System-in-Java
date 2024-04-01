@@ -35,6 +35,7 @@ public class Main
                     Savings(); // Method to display the saving account menu
                     break;
                 case 3:
+                    System.out.println("Have a good day!");
                     System.exit(0); // Exit
                     break;
                     default:
@@ -45,7 +46,7 @@ public class Main
     //Method to display the current account menu
 
     public void Current() {
-        System.out.println("*********** CURRENT **************");
+        System.out.println("*********** CURRENT ACCOUNT **************");
         while (true) { // Method calls itself until user press 3
         System.out.println("1. Deposit Funds ");
         System.out.println("2. Withdraw Funds ");
@@ -83,9 +84,9 @@ public class Main
    
     public void Savings()
     {
+        System.out.println("************ SAVINGS ACCOUNT **************");
         while (true) // Method calls itself until user press 3
         {
-        System.out.println("************ SAVINGS **************");
         System.out.println("1. Deposit Funds ");
         System.out.println("2. Withdraw Funds ");
         System.out.println("3. Return to main menu ");
